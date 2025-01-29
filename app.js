@@ -1,1 +1,13 @@
-//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+var nomesSorteados = [];
+
+function coletarNomes(){
+    var nomes = document.querySelector("input").value;
+    if(nomes == ""){
+        alert("Por favor, insira um nome.");
+    }else{  
+        console.log(nomes);
+        nomesSorteados.push(nomes);
+        document.querySelector("input").value = "";
+    }
+    console.log(nomesSorteados.length);
+}
