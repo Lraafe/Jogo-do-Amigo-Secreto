@@ -1,7 +1,7 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
+    --color-primary: #FBB829;
+    --color-secondary: #2FB8AC;
+    --color-tertiary: #A68C69;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
     --color-text: #444444;
@@ -123,7 +123,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #594433;
 }
 
 /* Listas */

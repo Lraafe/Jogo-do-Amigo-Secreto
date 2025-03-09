@@ -14,13 +14,18 @@
         <header class="cabecalho">
             <h1 class="cabecalho_titulo">Inimigo Secreto</h1>
             <img src="assets/amigo-secreto.png" alt="Imagem demonstrativa">
+            <!--<section class="cabecalho-modo">
+                <h2 class="cabecalho_titulo">Escolha o modo de jogo</h2>-->
+                <!--<button class="cabecalho-botao" onclick="main()">Solo</button>-->
+                <!--<button class="cabecalho-botao" onclick="main()">Grupo</button>
+            </section>-->
         </header>
 
         <section class="input-section">
-            <h2 class="secao-titulo">Digite o seu nome</h2>
+            <h2 class="secao-titulo">Clicke em sortear para descobrir seu Inimigo, e depois na dica</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
-                <button class="button-add" onclick="abra()">Adicionar</button>
+                <button class="button-add" onclick="deducao()">Adicionar</button>
                 <a class="button-friend" href="index.html">Amigo Secreto</a>
             </div>
 
@@ -31,6 +36,10 @@
                 <button class="botao-sortear" onclick="sortear()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
                     Sortear inimigo
+                </button>
+                <button class="botao-sortear" onclick="presente()" aria-label="Sortear amigo secreto">
+                    <img src="assets/dica.png" alt="Ícone para sortear">
+                    Dica do Inimigo
                 </button>
             </div>
         </section>
