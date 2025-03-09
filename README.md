@@ -5,5 +5,7 @@ sorteador de amigo secreto.
 
 Como direi nas observações não sei usar HTML ainda por isto atualizarei este projeto no futuro depois dos cursos de HTML
 
+E agora tem um modo de jogo novo esperimental
+
 Obs: feito com javascript, HTML e CSS. Os arquivos de HTML e CSS não foram feitos por mim, foram feitos pelo curso, no momento não sei como faze-los 
 apenas modifiquei um pouco do arquivo HTML mas jajá aprenderei nos proximos modulos 
